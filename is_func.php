@@ -2,9 +2,9 @@
 
 $grade = [];
 
-$checkDataType = is_integer($grade); // is_integer function
+$checkDataInt = is_int($grade); // is_integer function
 
-var_dump($checkDataType);
+var_dump($checkDataInt);
 
 if (!$checkDataType) {
     echo "Error! Only accept an integer input." . PHP_EOL;
